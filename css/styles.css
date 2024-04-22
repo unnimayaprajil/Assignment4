@@ -17,7 +17,6 @@
 .img-fluid {
     max-width: 100%;
     height: auto;
-
 }
 
 header h3,
@@ -64,16 +63,13 @@ a {
 
 .banner {
     display: flex;
-    flex-wrap: wrap-reverse;
-    
+    flex-wrap: wrap-reverse;    
     height: auto;
     justify-content: space-around;
     padding-bottom: 20px;
 }
 
-
 .banner-content {
-
     align-content: center;
 }
 
@@ -171,7 +167,7 @@ span,
 }
 .text-editor-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
     align-content: start
@@ -207,18 +203,43 @@ span,
         display: flex;
         justify-content: end;
     }
-
     .menu-item-business,
     .menu-item-login {
         display: none
     }
+    .banner-img {
+        padding: 20px;   
+    } 
+    .banner-content {
+        padding:20px;
+    }   
+    .secure-container {  
+        margin :0;
+        padding: 30px;
+    }
+    
     .secure-content {
         padding-left: 0;
+        padding-bottom: 30px;
+    }
+    .text-editor-img {
+        width: 100%;
+    }
+    .text-editor-info{
+        margin-bottom: 30px;
     }
     .phone-mockup-desktop{
         display: none;
     }
     .phone-mockup-mobile{
         display: flex;
+    }
+    .spense-info{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .footer-data{
+        width:50%;
+        padding-bottom: 20px;
     }
 }
